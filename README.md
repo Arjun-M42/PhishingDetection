@@ -1,7 +1,7 @@
 # Phishing Website Detection Engine
 
 ## High-Level Objective
-To analyze and detect malicious (phishing) URLs utilizing a hybrid pipeline combining pre-configured heuristic filtering and advanced Machine Learning (XGBoost) feature extraction.
+To analyze and detect malicious (phishing) URLs utilizing a hybrid pipeline combining pre-configured heuristic filtering and advanced Machine Learning (XGBoost Model) feature extraction.
 
 ## Overview
 A Python-based framework hosted via a `Streamlit` web application. It ingests raw textual URLs, evaluates their lexical composition through heavily curated rule-based triggers, and routes the structural components to a fast XGBoost tree classifier for a final confidence matrix rating.
